@@ -1,0 +1,18 @@
+.background{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+}
+
+.navigation{
+    position: absolute;
+    height: 600px;
+    left: 0;
+    right: 0;
+    top: 240px;
+    background: #1B1A21
+}
+
