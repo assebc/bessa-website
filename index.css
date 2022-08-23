@@ -11,6 +11,7 @@
 body{
     min-height: 100vh;
     overflow-x: hidden;
+    width: 100%;
     background: linear-gradient(#2b1055, #7597de);
 }
 
@@ -45,11 +46,6 @@ header ul li a{
     color: #ffff;
 }
 
-header ul li a:hover{
-    background: #ffff;
-    color: #2b1055;
-}
-
 header ul li a:hover, header ul li a.active{
     background: #ffff;
     color: #2b1055;
@@ -65,6 +61,7 @@ section{
     align-items: center;
     object-fit: cover;
     pointer-events: none;
+    overflow: hidden;
 }
 
 section::before{
@@ -121,4 +118,21 @@ section #text{
     color: #ffff;
 }
 
+.contact{
+    position: absolute;
+    background-color: #7659a5;
+    width: 100%;
+}
+
+.contact ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.contact ul li{
+    list-style: none;
+    margin-top: -100px;
+    margin-left: 10px;
+}
 
