@@ -9,7 +9,7 @@
 
 body{
     min-height: 100vh;
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#2b1055, #7597de);
 }
 
 header{
@@ -45,12 +45,12 @@ header ul li a{
 
 header ul li a:hover{
     background: #ffff;
-    color: #e66465;
+    color: #2b1055;
 }
 
 header ul li a:hover, header ul li a.active{
     background: #ffff;
-    color: #e66465;
+    color: #2b1055;
 }
 
 
