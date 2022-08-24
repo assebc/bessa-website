@@ -137,14 +137,3 @@ section #text{
     margin-left: 10px;
     z-index: 5;
 }
-
-.white_bar{
-    background:#ffff;
-    padding: 30px 15px;
-    border-radius: 20px;
-    width: 17%;
-    margin-left: 10px;
-    margin-top: -105px;
-    z-index: 5;
-    position: absolute;
-}
