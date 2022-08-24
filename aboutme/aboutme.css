@@ -82,8 +82,44 @@ section img#bessa{
     position: fixed;
     width: 250px;
     height: 250px;
-    top: 25%;
-    left: 70%;
+    top: 20%; 
+    left: 75%;
+    pointer-events: all;
+    z-index:6;
+}
+
+section a#bessa_p{
+    position: fixed;
+    width: 230px;
+    height: 20px;
+    background: #ffff;
+    top: 41.3%;
+    left: 75.65%;
+    pointer-events: all;
+    z-index:6;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+section .square{
+    position: fixed;
+    border-radius: 50px;
+    top: 17%;
+    width: 80%;
+    height: 70%;
+    background-color: azure;
+    opacity: 40%;
+    z-index: 5;
+}
+
+section p{
+    position: fixed;
+    top: 20%;
+    left: 15%;
+    font-size: 2em;
+    color: #258ce4;
+    text-align: justify;
+    text-shadow: black;
 }
 
 section img#sun{
