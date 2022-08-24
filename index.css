@@ -70,7 +70,7 @@ section::before{
     bottom: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top,#eeb46a,transparent);
+    background: linear-gradient(to top,#dd9e53,transparent);
     z-index: 1000;
 }
 section img{
@@ -84,8 +84,9 @@ section img{
 }
 
 section img#sun{
+    margin-top: -100px;
+    margin-left:10px;
     mix-blend-mode: screen;
-    top: -100px;
 }
 
 section img#front{
@@ -104,7 +105,7 @@ section #text{
 .sec{
     position: relative;
     padding: 100px;
-    background-color: #eeb46a;
+    background-color: #dd9e53;
 }
 
 .sec h2{
@@ -121,7 +122,7 @@ section #text{
 
 .contact{
     position: absolute;
-    background-color: #eeb46a;
+    background-color: #7659a5;
     width: 100%;
 }
 
@@ -132,8 +133,9 @@ section #text{
 }
 
 .contact ul li{
+    display: flex;
     list-style: none;
-    margin-top: -100px;
+    margin-top: -90px;
     margin-left: 10px;
-    z-index: 5;
+    z-index: 6;
 }
