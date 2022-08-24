@@ -85,7 +85,7 @@ section img{
 
 section img#sun{
     mix-blend-mode: screen;
-    margin-top: -100px;
+    top: -100px;
 }
 
 section img#front{

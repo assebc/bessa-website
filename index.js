@@ -6,7 +6,7 @@ let header = document.querySelector('header');
 
 window.addEventListener('scroll', function(){
     let value = window.scrollY;
-    sun.style.top = value * 1.05 + 'px';
+    sun.style.top = value * 1 + 'px';
     behind.style.top = value * 0.5 + 'px';
     front.style.top = value * 0.5 + 'px';
     header.style.top = value * 0.25 + 'px';
