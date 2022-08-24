@@ -78,17 +78,17 @@ section img#behind{
     margin-top: 100px;
 }
 
-section img#sun{
-    mix-blend-mode: screen;
+section img#bessa{
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    top: 25%;
+    left: 70%;
 }
 
-section #text{
-    position: absolute;
-    right: -350px;
-    color: #ffff;
-    white-space: nowrap;
-    font-size: 7.5em;
-    z-index: 9;
+section img#sun{
+    mix-blend-mode: screen;
+    margin-top: -100px;
 }
 
 .contact{
@@ -104,12 +104,11 @@ section #text{
     align-items:center;
 }
 
-
 .contact ul li{
     list-style: none;
     margin-top: -100px;
     margin-left: 10px;
-    z-index: 6;
+    z-index: 5;
 }
 
 .white_bar{
@@ -118,7 +117,7 @@ section #text{
     border-radius: 20px;
     width: 17%;
     margin-left: 10px;
-    margin-top: -100px;
+    margin-top: -105px;
     z-index: 5;
     position: absolute;
 }
