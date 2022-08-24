@@ -12,7 +12,7 @@ body{
     min-height: 100vh;
     overflow-x: hidden;
     width: 100%;
-    background: linear-gradient(#2b1055, #7597de);
+    background: linear-gradient(#e66465, #9198e5);
 }
 
 header{
@@ -48,7 +48,7 @@ header ul li a{
 
 header ul li a:hover, header ul li a.active{
     background: #ffff;
-    color: #2b1055;
+    color: #e66465;
 }
 
 section{
@@ -74,7 +74,11 @@ section img{
     pointer-events: none;
 }
 
-section img#moon{
+section img#behind{
+    margin-top: 100px;
+}
+
+section img#sun{
     mix-blend-mode: screen;
 }
 
