@@ -23,12 +23,42 @@
         <section>
             <!-- images for background-->
             <img src="../imgs/sun.png" id="sun"> <!-- second image for background-->
-            <a href="https://github.com/assebc/resume-cv/raw/main/resume.pdf" id="bessa_p"><img src="../imgs/bessa.png" id="bessa">Download my CV</a>
+            <a href="https://github.com/assebc/resume-cv/raw/main/resume.pdf" id="bessa_p"><img src="../imgs/bessa.png" id="bessa"></a>
             <div class="square"></div>
             <p>
-                Hi there! My name is Cláudio Bessa and I'm currently <p id="age"></p>
-                <script type="text/javascript" href="aboutme.js"></script>
+                Hi there! My name is Cláudio Bessa, I'm from Portugal and I'm currently <a id="age"></a> years old.<br/><br/>
+                I started programming when I was in middle school but my first project was in my last year of High School!<br/> 
+                Me and my college we created a car that had built in sensors that able it to drive completely by its own using Arduino.<br/>
+                For that same project we needed to share it so I decided to develop a website using HTML and CSS.<br/><br/><br/>
+
+                After being accepted in University of Minho I made a few more projects due to classes in different languages using different methods 
+                such as <br/> recreating pacman in Haskell, creating a calculator using stack methods in C, creating a smart city in Java and others.
+                Lately I've been working <br/> on some projects, nothing to do with university, to develop new skills including new languages as well!
+                <br/><br/>
+        
+                I recently took a summer internship at Sentinel where I performed a junior software developer role using C++ and Qt.<br/><br/>
+
+                In terms of big life achievements, even though I am only <a id="age2"></a> years old, I really have a few, being the two biggest ones being honored for my grades<br/>
+                by <em>Sociedade Martins Sarmento</em> in 2012 and more recently won gold medal at University National Championship in volleyball in 2021.<br/><br/>
+
+                Be free to know more about my journey by downloading my CV by clicking on me!
             </p>
+
+            <script type="text/javascript">
+                var dt1 = new Date(2002,10,13);
+                var dt2 = new Date(Date.now());
+                var diff =(dt2.getTime() - dt1.getTime()) / 1000;
+                diff /= (60 * 60 * 24);
+                if((dt2.getUTCMonth() == dt1.getUTCMonth() ^ dt2.getUTCDay() < dt1.getUTCDay()) || (dt2.getUTCMonth() < dt1.getUTCMonth())){
+                    document.getElementById("age").innerHTML = Math.abs(Math.round(diff/365.25)-1);
+                    document.getElementById("age2").innerHTML = Math.abs(Math.round(diff/365.25)-1);
+                } else{
+                    document.getElementById("age").innerHTML = Math.abs(Math.round(diff/365.25));
+                    document.getElementById("age2").innerHTML = Math.abs(Math.round(diff/365.25));
+                }
+                
+            </script>
+
             <img src="../imgs/beach.png" id="behind"> <!-- back image for background-->
         </section>
 
