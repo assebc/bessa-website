@@ -10,7 +10,7 @@
 
 body{
     min-height: 100vh;
-    overflow-x: hidden;
+    overflow-x: hidden; 
     width: 100%;
     background: linear-gradient(#e66465, #9198e5);
 }
@@ -60,8 +60,9 @@ section{
     justify-content: center;
     align-items: center;
     object-fit: cover;
-    pointer-events: none;
-    overflow: hidden;
+    pointer-events: all;
+    overflow-x: hidden;
+    overflow-y:auto;
     min-width: 246px;
     min-height: 341px;
 }
@@ -75,36 +76,33 @@ section img{
     object-fit: cover;
     pointer-events: none;
 }
-
 section img#behind{
-    margin-top: 100px;
+    height: max-content;
+    width: max-content;
 }
 
-img#bessa{
-    min-height: 10%;
-    min-width: 10%;
-    width: 250px;
-    margin-top: 2.5%;
-    height: 250px;
-    margin-left: 80%;
+section img#sun{
+    height: max-content;
+    mix-blend-mode: screen;
+    top: -100px;
+}
+
+#bessa{
     pointer-events: all;
     z-index:6;
-    opacity: 100%;
-    float: left;
 }
 
 .square{
-    position: fixed;
+    position: absolute;
     border-radius: 50px;
-    top: 17%;
+    top: 30%;
     z-index: 5;
     min-height: 60%;
     min-width: 75%;
-    width: 80%;
+    width: 80%;  
 }
 
 .square p{
-    overflow:hidden;
     max-height: 50%;
     min-width: 75%;
     max-width: 90%;
@@ -113,15 +111,9 @@ img#bessa{
     font-size: 2em;
     color: #258ce4;
     text-align: justify;
-    text-shadow: black;
-    direction: ltr;
     white-space: break-word;
     z-index: 7;
-}
-
-section img#sun{
-    mix-blend-mode: screen;
-    top: -100px;
+    
 }
 
 .contact{
@@ -142,9 +134,4 @@ section img#sun{
     margin-top: -100px;
     margin-left: 10px;
     z-index: 5;
-}
-
-#resize{
-    min-width:100%;
-    min-height: 100%;
 }
