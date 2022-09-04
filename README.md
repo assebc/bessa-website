@@ -8,4 +8,4 @@ Be free to sponsor me out at my <a href="https://paypal.me/bessa11">paypal</a>.
 <a href="http://assebc.pt/">
   <img src="http://assebc.pt/favicon.png" width="70px" width="70px">
 </a>
-Domained powered by <a href="https://www.amen.pt/">amen.pt</a>
+Domain powered by <a href="https://www.amen.pt/">amen.pt</a>
