@@ -250,3 +250,28 @@ span{
         overflow: hidden;
     }
 }
+
+@media only screen and (max-width: 400px){
+
+    .hero{
+        overflow: hidden;
+    }
+    nav{
+        margin-left: 1%;
+        margin-top: 5%;
+        overflow: hidden;
+    }
+
+    .contact{
+        width: 72.5%;
+        margin-left: 5%;
+        justify-content: space-around;
+    }
+
+    .images{
+        margin-bottom: -3%;
+        height: 20%;
+        justify-content: center;
+    }
+
+}
