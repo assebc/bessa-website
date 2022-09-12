@@ -1,0 +1,121 @@
+@import url('https:fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    background: rgb(86, 192, 211);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 2em;
+    padding: 6px 15px;
+    border-radius: 20px;
+    color: #ffff;
+}
+
+header ul li a:hover, header ul li a.active{
+    background: #ffff;
+    color: rgb(86, 192, 211);
+}
+
+section{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+section img#sun{
+    margin-top: -100px;
+    margin-left:10px;
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: screen;
+}
+
+section #text{
+    position: absolute;
+    right: -350px;
+    color: #ffff;
+    white-space: nowrap;
+    font-size: 7.5em;
+    z-index: 9;
+}
+
+.yt_videos{
+    width: 80%;
+    height: 50vh;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    margin-top: 400px;
+    z-index: 10;
+}
+
+.contact ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.contact ul li{
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+    z-index: 6;
+}

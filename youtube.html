@@ -2,9 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Bessa's Website</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Youtube</title>
         <link rel="shortcut icon" type="image/png"  href="imgs/favicon.png">
-        <link rel="stylesheet"  type="text/css" href="css/index.css">
+        <link rel="stylesheet"  type="text/css" href="css/youtube.css">
     </head>
 
     <body>
@@ -14,34 +16,13 @@
             </a>
 
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html" >Home</a></li>
                 <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="youtube.html">Youtube</a></li>
+                <li><a href="youtube.html" class="active">Youtube</a></li>
             </ul>
         </header>
-        
-        <section>
-            <!-- images for background-->
-            <img src="imgs/sun.png" id="sun"> <!-- second image for background-->
-            <img src="imgs/beach.png" id="behind"> <!-- back image for background-->
-            <img src="imgs/players.png" id="front"> <!-- front image for background--> 
 
-            <div class="latest_yt">
-                <iframe src="https://www.youtube.com/embed/8T5ByIsn7FY?autoplay=1&mute=1""></iframe> 
-                <p><strong>Latest Youtube Video</strong></p>
-            </div>    
-        </section>
-
-        <div class="sec" id="sec">
-            <h2>Welcome to my website!</h2>
-            <p><em>Younger in the software world. Developed my first project when I was 16 years old, using Arduino. 
-                Worked on some small projects such as developing websites, developing data management APIs for stocks of some companies.<br><br> 
-                Currently studying Software Engineering at University of Minho! 
-            </em>            
-            </p>
-        </div> 
-
-        <script type="text/javascript" src="js/index.js"></script>
+        <div class="yt_videos"></div>
 
         <div class="contact" id="contact">
             <ul>
@@ -54,5 +35,7 @@
                 <li><a href="https://paypal.me/bessa11" target="_blank"><img src="imgs/paypal.png" id="paypal" width="40px" height="40px"></a></li>  
             </ul>
         </div>
+
+        <script type="text/javascript" src="js/youtube.js"></script>
     </body>
 </html>
