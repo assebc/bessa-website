@@ -6,6 +6,6 @@ Although my website's source code is public be aware that it took time, inspirat
 Be free to sponsor me out at my <a href="https://paypal.me/bessa11">paypal</a>.
 
 <a href="http://assebc.pt/">
-  <img src="http://assebc.pt/favicon.png" width="70px" width="70px">
+  <img src="http://assebc.pt/imgs/favicon.png" width="70px" width="70px">
 </a>
 Domain powered by <a href="https://www.amen.pt/">amen.pt</a>
