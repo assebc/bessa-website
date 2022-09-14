@@ -1,5 +1,5 @@
 var xml_link = "https://www.youtube.com/feeds/videos.xml?channel_id=UCYXW07u06W_eyY_GMJcQDaw"
-var nodes = document.getElementsByTagName("yt_videoId");
+var nodes = xml_link.getElementsByTagName("yt_videoId");
 var videos_Id = [];
 var yt_link = "https://www.youtube.com/watch?v="; // concat the the video_Id link
 
