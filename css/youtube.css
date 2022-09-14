@@ -100,6 +100,12 @@ section #text{
     justify-content: center;
 }
 
+iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
 .contact{
     position: absolute;
     width: 100%;
